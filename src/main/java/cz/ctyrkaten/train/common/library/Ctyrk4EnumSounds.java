@@ -2,11 +2,20 @@ package cz.ctyrkaten.train.common.library;
 
 import cz.ctyrkaten.train.common.entity.rollingStock.*;
 import train.common.api.TrainSoundRecord;
+import train.common.entity.rollingStock.EntityLocoSteamCherepanov;
 import train.common.library.Info;
 
 
 public enum Ctyrk4EnumSounds implements TrainSoundRecord {
+
+	LOCO_SJLittDa(Ctyrk4EntityLocoElectricSJLittDa.class, Ctyrk4AddonInfo.resourceLocation + "signalhornlong", 0.6F, "vl10_idle", 0.2F, 20, "vl10_idle", 0.2F, 20, false),
+
 	/*
+
+
+
+
+
 	LOCO_CD742(Ctyrk4EntityLocoDieselCD742.class, "742_horn", 0.8F, "742_motor_slow", 0.65F, 40, "742_motor", 0.65F, 40,
 			false),
 	LOCO_CD810(Ctyrk4EntityLocoDieselCD810.class, "tram_horn", 0.8F, "chme3_idle", 0.65F, 40, "chme3_idle", 0.65F, 40, true),

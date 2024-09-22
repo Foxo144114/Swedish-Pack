@@ -49,7 +49,7 @@ public class Ctyrk4EntityPropaganda extends EntityRollingStock {
 		}
 		return true;
 	}
-	
+
 	@Override
 	public void setDead() {
 		super.setDead();

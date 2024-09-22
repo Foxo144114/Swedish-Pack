@@ -13,7 +13,7 @@ public class Ctyrk4CreativeTabTraincraftTrains extends CreativeTabs {
 
 	@Override
 	public ItemStack getIconItemStack() {
-		return new ItemStack(Ctyrk4ItemIDs.minecartPropagandaCzech.item);
+		return new ItemStack(Ctyrk4ItemIDs.minecartSJLittDa.item);
 	}
 
 	@Override
@@ -22,5 +22,5 @@ public class Ctyrk4CreativeTabTraincraftTrains extends CreativeTabs {
 	}
 
 	@Override
-	public Item getTabIconItem(){return Ctyrk4ItemIDs.minecartPropagandaCzech.item;}
+	public Item getTabIconItem(){return Ctyrk4ItemIDs.minecartSJLittDa.item;}
 }
