@@ -22,7 +22,7 @@ public class Swedish_PackEntityFreightSJLittDm3 extends Freight implements IInve
 
 	public void initFreightCart() {
 		numFreightSlots = 9;
-		freightInventorySize = getInventoryRows()*9;
+		freightInventorySize = 9;
 		cargoItems = new ItemStack[freightInventorySize];
 	}
 
@@ -94,7 +94,7 @@ public class Swedish_PackEntityFreightSJLittDm3 extends Freight implements IInve
 	}
 	@Override
 	public float getOptimalDistance(EntityMinecart cart) {
-		return 3.955F;
+		return 2.3F;
 	}
 
 	@Override

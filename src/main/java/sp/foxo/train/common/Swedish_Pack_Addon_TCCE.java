@@ -38,7 +38,7 @@ public class Swedish_Pack_Addon_TCCE {
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		tcLog.info("Starting Ctyrk4 Traincraft Addon " + Swedish_PackAddonInfo.modVersion + "!");
+		tcLog.info("Starting Swedish Pack Traincraft Addon " + Swedish_PackAddonInfo.modVersion + "!");
 
         /* Config handler */
 //		configDirectory= event.getModConfigurationDirectory();
@@ -46,7 +46,7 @@ public class Swedish_Pack_Addon_TCCE {
 		/* Register Items, Blocks, ... */
 		tcLog.info("Initialize Blocks, Items, ...");
 
-        tcAddonTab = new Swedish_PackCreativeTabTraincraftTrains(CreativeTabs.getNextID(), "Ctyrk4 Addon for TrainCraft");
+        tcAddonTab = new Swedish_PackCreativeTabTraincraftTrains(CreativeTabs.getNextID(), "Swedish Pack Addon for TrainCraft");
 
         Swedish_PackItems.init();
         registerEntityHandlers();

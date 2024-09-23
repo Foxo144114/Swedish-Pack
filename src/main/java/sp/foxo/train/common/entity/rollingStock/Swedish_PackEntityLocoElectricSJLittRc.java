@@ -11,12 +11,12 @@ import train.common.Traincraft;
 import train.common.api.ElectricTrain;
 import train.common.library.GuiIDs;
 
-public class Swedish_PackEntityLocoElectricSJLittDmA extends ElectricTrain {
-	public Swedish_PackEntityLocoElectricSJLittDmA(World world) {
+public class Swedish_PackEntityLocoElectricSJLittRc extends ElectricTrain {
+	public Swedish_PackEntityLocoElectricSJLittRc(World world) {
 		super(world);
 	}
 
-	public Swedish_PackEntityLocoElectricSJLittDmA(World world, double d, double d1, double d2) {
+	public Swedish_PackEntityLocoElectricSJLittRc(World world, double d, double d1, double d2) {
 		this(world);
 		setPosition(d, d1 + yOffset, d2);
 		motionX = 0.0D;
@@ -32,7 +32,7 @@ public class Swedish_PackEntityLocoElectricSJLittDmA extends ElectricTrain {
 		if(riddenByEntity==null){return;}
 		double pitchRads = this.anglePitchClient * Math.PI / 180.0D;
 		double distance = 4.1f;
-		double yOffset = 0.25;
+		double yOffset = -0.1;
 		float rotationCos1 = (float) Math.cos(Math.toRadians(this.renderYaw + 90));
 		float rotationSin1 = (float) Math.sin(Math.toRadians((this.renderYaw + 90)));
 		if(side.isServer()){
@@ -115,7 +115,7 @@ public class Swedish_PackEntityLocoElectricSJLittDmA extends ElectricTrain {
 
 	@Override
 	public String getInventoryName() {
-		return "SJ Litterera Dm A";
+		return "SJ Litterera D";
 	}
 
 	@Override
@@ -135,7 +135,7 @@ public class Swedish_PackEntityLocoElectricSJLittDmA extends ElectricTrain {
 
 	@Override
 	public float getOptimalDistance(EntityMinecart cart) {
-		return 0.57F;
+		return 0.7F;
 	}
 
 	@Override

@@ -1,5 +1,0 @@
-{
-  "fullhour": {"category": "master", "sounds": [{"name": "fullhour","stream": true}]},
-  "signalhornlong": {"category": "master", "sounds": [{"name": "signalhornlong","stream": true}]},
-  "signalhornshort": {"category": "master", "sounds": [{"name": "signalhornshort","stream": true}]}
-}

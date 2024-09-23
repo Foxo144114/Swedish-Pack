@@ -9,13 +9,20 @@ public enum Swedish_PackEnumTrains {
 
     //LOCO_CD843("locoCD843", "CD 843", Ctyrk4EntityLocoDieselCD843.class, Ctyrk4ItemIDs.minecartLocoCD843.item, "diesel", 816, 111, 1.4, 10, 0, 100, 0.7, 0.9, 8000, new String[]{"Blue"}, 18, -4.25, Constants.TOOLTIP),
     LOCO_SJLittDa("locoSJLittDa", "SJ Litterera Da", Swedish_PackEntityLocoElectricSJLittDa.class, Swedish_PackItemIDs.minecartSJLittDa.item, "electric", 2470, 101, 1.4, 10, 0, 100, 0.7, 0.9, 8000, new String[]{"Red_South_AllDown", "Red_South_Back_Up", "Red_South_Front_Up","Red_North_AllDown", "Red_North_Back_Up", "Red_North_Front_Up","Red_60s_AllDown", "Red_60s_Back_Up", "Red_60s_Front_Up","Red_60snorth_AllDown", "Red_60snorth_Back_Up", "Red_60snorth_Front_Up","Green_AllDown", "Green_Back_Up", "Green_Front_Up"}, 18, -4.25, Constants.TOOLTIP),
-    LOCO_SJLittDmA("locoSJLittDmA", "SJ Litterera Dm A", Swedish_PackEntityLocoElectricSJLittDmA.class, Swedish_PackItemIDs.minecartSJLittDmA.item, "electric", 6400, 76, 1.4, 10, 0, 100, 0.7, 0.9, 8000, new String[]{"60snorth_Down", "60snorth_Up", "60ssouth_Down", "60ssouth_Up", "70snorth_Down", "70snorth_Up", "70ssouth_Down", "70ssouth_Up", "LKAB_Down", "LKAB_Up"}, 18, -4.25, Constants.TOOLTIP),
-   // LOCO_SJLittB1919("locoSJLittB1919", "SJ Litterera B 1919", Ctyrk4EntityLocoSteamSJLittB1919.class, Ctyrk4ItemIDs.minecartSJLittB1919.item, "steam", 6400, 76, 1.4, 10, 1, 100, 0.7, 0.9, 8000, new String[]{"StengdHyttSvart"}, 18, -4.25, Constants.TOOLTIP),
+    LOCO_SJLittDmA("locoSJLittDmA", "SJ Litterera Dm A", Swedish_PackEntityLocoElectricSJLittDmA.class, Swedish_PackItemIDs.minecartSJLittDmA.item, "electric", 6400, 76, 1.4, 10, 0, 100, 0.7, 0.9, 8000, new String[]{"60snorth_Down", "60snorth_Up", "60ssouth_Down", "60ssouth_Up", "70snorth_Down", "70snorth_Up", "70ssouth_Down", "70ssouth_Up", "LKAB_Down", "LKAB_Up"}, 18, -4.55, Constants.TOOLTIP),
+    LOCO_SJLittDmB("locoSJLittDmB", "SJ Litterera Dm B", Swedish_PackEntityLocoElectricSJLittDmB.class, Swedish_PackItemIDs.minecartSJLittDmB.item, "electric", 6400, 76, 1.4, 10, 0, 100, 0.7, 0.9, 8000, new String[]{"60snorth_Down", "60snorth_Up", "60ssouth_Down", "60ssouth_Up", "70snorth_Down", "70snorth_Up", "70ssouth_Down", "70ssouth_Up", "LKAB_Down", "LKAB_Up"}, 18, -4.55, Constants.TOOLTIP),
+    LOCO_SJLittD("locoSJLittD", "SJ Litterera D", Swedish_PackEntityLocoElectricSJLittD.class, Swedish_PackItemIDs.minecartSJLittD.item, "electric", 1640, 101, 1.4, 10, 0, 100, 0.7, 0.9, 8000, new String[]{"Red", "Wood"}, 18, -4.2, Constants.TOOLTIP),
+    LOCO_SJLittDu2("locoSJLittDu2", "SJ Litterera Du2", Swedish_PackEntityLocoElectricSJLittDu2.class, Swedish_PackItemIDs.minecartSJLittDu2.item, "electric", 2470, 101, 1.4, 10, 0, 100, 0.7, 0.9, 8000, new String[]{"Red"}, 18, -4.2, Constants.TOOLTIP),
+    LOCO_SJLittRc("locoSJLittRc", "SJ Litterera Rc", Swedish_PackEntityLocoElectricSJLittRc.class, Swedish_PackItemIDs.minecartSJLittRc.item, "electric", 4800, 161, 1.4, 10, 0, 100, 0.7, 0.9, 8000, new String[]{"black", "blue", "BlueGreen", "blueSP", "GreenCargo", "grey", "orange", "Trafikverket", "white"}, 18, -4.25, Constants.TOOLTIP),
 
-    FREIGHT_SJLittDm3("SJLittDm3", "SJ Litterera Dm3", Swedish_PackEntityFreightSJLittDm3.class, Swedish_PackItemIDs.minecartSJLittDm3.item, "freight", 3.5, new String[]{"60s", "70s","LKAB"}, 18, 36, Constants.TOOLTIP),
+
+   //LOCO_SJLittB1919("locoSJLittB1919", "SJ Litterera B 1919", Swedish_PackEntityLocoSteamSJLittB1919.class, Swedish_PackItemIDs.minecartSJLittB1919.item, "steam", 6400, 76, 1.4, 10, 1, 100, 0.7, 0.9, 8000, new String[]{"StengdHyttSvart"}, 18, -4.25, Constants.TOOLTIP),
 
 
-    PASSENGER_SJLittDmB("passengerSJLittDmB", "SJ Litterera Dm B", Swedish_PackEntityPassengerSJLittDmB.class, Swedish_PackItemIDs.minecartSJLittDmB.item, "passenger", 0, 0, 1, 0, 0, 0, 0, 0, 0, new String[]{"60snorth_Down", "60snorth_Up", "60ssouth_Down", "60ssouth_Up", "70snorth_Down", "70snorth_Up", "70ssouth_Down", "70ssouth_Up", "LKAB_Down", "LKAB_Up"}, 10, 0, Constants.TOOLTIP),
+
+    FREIGHT_SJLittDm3("SJLittDm3", "SJ_Litterera_Dm3", Swedish_PackEntityFreightSJLittDm3.class, Swedish_PackItemIDs.minecartSJLittDm3.item, "freight", 3.5, new String[]{"60s", "70s","LKAB"}, 18, 36, Constants.TOOLTIP),
+
+
 
     ;
 
@@ -229,6 +236,6 @@ public enum Swedish_PackEnumTrains {
 
     private static class Constants {
 
-        public static final String TOOLTIP = "Pack: " + EnumChatFormatting.YELLOW + "Ctyrk4 Pack" + EnumChatFormatting.GOLD + EnumChatFormatting.BOLD + "  -Petsox";
+        public static final String TOOLTIP = "Pack: " + EnumChatFormatting.YELLOW + "Swedish Pack" + EnumChatFormatting.GOLD + EnumChatFormatting.BOLD + "  -Foxo";
     }
 }

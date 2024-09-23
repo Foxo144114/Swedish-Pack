@@ -135,7 +135,7 @@ public class Swedish_PackEntityLocoElectricSJLittDa extends ElectricTrain {
 
 	@Override
 	public float getOptimalDistance(EntityMinecart cart) {
-		return 0.95F;
+		return 0.85F;
 	}
 
 	@Override

@@ -15,20 +15,25 @@ public enum Swedish_PackRenderEnum implements TrainRenderRecord {
 	//PropagandaCzech(Ctyrk4EntityPropagandaCzech.class, new train.client.render.models.ModelPropagandaCar(), "propaganda_Czech_", true, new float[] { 1.1F, 0.2F, -0.1F }, new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
 	ElectricSJLittDa(Swedish_PackEntityLocoElectricSJLittDa.class, new ModelSJLittDa(), "Da_", true, new float[] { -4.75F, -0.5F, 0.0F }, new float[] { 0F, 180F, 180F }, null,"",0,null, "", null, 0, false),
 	ElectricSJLittDmA(Swedish_PackEntityLocoElectricSJLittDmA.class, new ModelSJLittDmA(), "DmA_", true, new float[] { -4.75F, -0.5F, 0.0F }, new float[] { 0F, 180F, 180F }, null,"",0,null, "", null, 0, false),
-	passengerSJLittDmB(Swedish_PackEntityPassengerSJLittDmB.class, new ModelSJLittDmB(), "DmB_", true, new float[] { 2.5F, -0.5F, 0.0F }, new float[] { 0F, 0F, 180F }, null,"", 0, null, "", null, 0, false),
+	ElectricSJLittDmB(Swedish_PackEntityLocoElectricSJLittDmB.class, new ModelSJLittDmB(), "DmB_", true, new float[] { -4.75F, -0.5F, 0.0F }, new float[] { 0F, 180F, 180F }, null,"",0,null, "", null, 0, false),
+	ElectricSJLittD(Swedish_PackEntityLocoElectricSJLittD.class, new ModelSJLittD(), "D_", true, new float[] { -4.7F, -0.5F, 0.0F }, new float[] { 0F, 180F, 180F }, null,"",0,null, "", null, 0, false),
+	ElectricSJLittDu2(Swedish_PackEntityLocoElectricSJLittDu2.class, new ModelSJLittDu2(), "Du2_", true, new float[] { -4.7F, -0.5F, 0.0F }, new float[] { 0F, 180F, 180F }, null,"",0,null, "", null, 0, false),
+	ElectricSJLittRc(Swedish_PackEntityLocoElectricSJLittRc.class, new ModelSJLittRc(), "Rc_", true, new float[] { -0.125F, -0.5F, 0.0F }, new float[] { 0F, 180F, 180F }, null,"",0,null, "", null, 0, false),
 
-	FreightSJLittDm3(Swedish_PackEntityFreightSJLittDm3.class, new ModelSJLittDm3(), "Dm3_", true, new float[] { -3.0F, -0.5F, 0.0F },  new float[] { 0F, 180F, 180F }, null,"", 0, null, "", null, 0, false),
 
-	/*SteamSJLittB1919(Ctyrk4EntityLocoSteamSJLittB1919.class, new ModelSJLittB1919(), "BLok", true, new float[] { -4.75F, -0.5F, 0.0F }, new float[] { 0F, 180F, 180F }, null,"largesmoke",3,new ArrayList<double[]>() {
+
+	FreightSJLittDm3(Swedish_PackEntityFreightSJLittDm3.class, new ModelSJLittDm3(), "Dm3_", true, new float[] { -3.0255F, -0.5F, 0.0F },  new float[] { 0F, 180F, 180F }, null,"", 0, null, "", null, 0, false),
+
+	/*SteamSJLittB1919(Swedish_PackEntityLocoSteamSJLittB1919.class, new ModelSJLittB1919(), "BLok", true, new float[] { -3.25F, -0.5F, 0.0F }, new float[] { 0F, 180F, 180F }, null,"largesmoke",3,new ArrayList<double[]>() {
 		{
 			add(new double[] { 3.55D, 1.5D, 0D });
 		}
 	}, "explode", new ArrayList<double[]>() {
 		{
 			add(new double[] { 3.2, -0.5, 0.60D });
-		}}, 2, true),*/
+		}}, 2, true),
 
-
+*/
 	;
 
 

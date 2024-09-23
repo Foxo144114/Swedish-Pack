@@ -37,7 +37,7 @@ public class Swedish_PackEntityLocoSteamSJLittB1919 extends SteamTrain {
 	@Override
 	public void updateRiderPosition() {
 		if(riddenByEntity==null){return;}
-		riddenByEntity.setPosition(posX - 0.8F, posY + getMountedYOffset() + riddenByEntity.getYOffset() + 0.36F, posZ);
+		riddenByEntity.setPosition(posX - 0.0F, posY + getMountedYOffset() + riddenByEntity.getYOffset() + 0.1F, posZ);
 	}
 
 	@Override
@@ -120,7 +120,7 @@ public class Swedish_PackEntityLocoSteamSJLittB1919 extends SteamTrain {
 
 	@Override
 	public float getOptimalDistance(EntityMinecart cart) {
-		return (0.5F);
+		return (0.1F);
 	}
 
 	@Override

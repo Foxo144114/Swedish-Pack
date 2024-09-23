@@ -11,12 +11,12 @@ import train.common.Traincraft;
 import train.common.api.ElectricTrain;
 import train.common.library.GuiIDs;
 
-public class Swedish_PackEntityLocoElectricSJLittDmA extends ElectricTrain {
-	public Swedish_PackEntityLocoElectricSJLittDmA(World world) {
+public class Swedish_PackEntityLocoElectricSJLittDmB extends ElectricTrain {
+	public Swedish_PackEntityLocoElectricSJLittDmB(World world) {
 		super(world);
 	}
 
-	public Swedish_PackEntityLocoElectricSJLittDmA(World world, double d, double d1, double d2) {
+	public Swedish_PackEntityLocoElectricSJLittDmB(World world, double d, double d1, double d2) {
 		this(world);
 		setPosition(d, d1 + yOffset, d2);
 		motionX = 0.0D;
