@@ -1,4 +1,4 @@
-Ctyrk4 Trains Pack Addon for Traincraft
+Swedish Pack Addon for Traincraft
 =======================================
 
 Mod for Minecraft adding extra locomotives and other train carts using Traincraft CE mod addon API.
@@ -6,7 +6,7 @@ Mod for Minecraft adding extra locomotives and other train carts using Traincraf
 Screenshot
 ----------
 
-![Screenshot](images/screenshot.jpg?raw=true)
+None atm
 
 Usage
 -----
@@ -19,21 +19,18 @@ Currently, new items are available only in tab in creative mode (no crafting rec
 
 Authors
 -------
+Foxo - @Foxo
 
+Special thx to:
 Petsox - @Petsox
-
-tpeterka1 - @tpeterka1
-
-HajdaM - @hajdam
-
-And all creators of included models and skins
+Squidman888
 
 Discord
 -------
 
-You can contact us here, we will happily create a ticket for any questions you might have:
+You can contact us, give us ideas and more here:
 
-https://discord.gg/kfv2kpuezU
+https://discord.gg/fjtDBut
 
 Building
 --------
