@@ -1,0 +1,25 @@
+<!-- ## This is a comment, do no remove or modify these! ## -->
+<!-- ## Only replace the words on the right side of "=" ## -->
+<!-- ## Save the file the same way this file was saved but replace "en_US" with appropriate language name ## -->
+
+item.swedishpack:minecartSJLittD.name=Litterera D (SJ)
+item.swedishpack:minecartSJLittDu2.name=Litterera Du2 (SJ)
+item.swedishpack:minecartSJLittDa.name=Litterera Da (SJ)
+item.swedishpack:minecartSJLittDmA.name=Litterera Dm [A] (SJ)
+item.swedishpack:minecartSJLittDm3.name=Litterera Dm3 (SJ)
+item.swedishpack:minecartSJLittDmB.name=Litterera Dm [B] (SJ)
+item.swedishpack:minecartSJLittRc.name=Litterera Rc (SJ)
+
+entity.swedishpack.SJ_Litterera_Dm3.name=Litterera Dm3 (SJ)
+
+train.owner.name=You are not the owner!
+train.locked.name=Locked
+train.unlocked.name=Unlocked
+
+key.categories.traincraft=Traincraft-CE
+key.traincraft.horn=Horn
+key.traincraft.inventory=Inventory
+key.traincraft.up=Up
+key.traincraft.down=Down
+key.traincraft.idle=Idle
+key.traincraft.furnace=Furnace
