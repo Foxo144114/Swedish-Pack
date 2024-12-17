@@ -75,7 +75,7 @@ public class Swedish_PackEntityFreightSJLittDm3 extends Freight implements IInve
 	}
 	@Override
 	public String getInventoryName() {
-		return "SJ Litterera Dm3";
+		return "SJ Litt Dm3";
 	}
 
 	@Override

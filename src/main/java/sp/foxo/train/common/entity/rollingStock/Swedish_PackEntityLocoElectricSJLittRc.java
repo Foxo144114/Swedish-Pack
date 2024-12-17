@@ -115,7 +115,7 @@ public class Swedish_PackEntityLocoElectricSJLittRc extends ElectricTrain {
 
 	@Override
 	public String getInventoryName() {
-		return "SJ Litterera D";
+		return "SJ Litt Rc";
 	}
 
 	@Override

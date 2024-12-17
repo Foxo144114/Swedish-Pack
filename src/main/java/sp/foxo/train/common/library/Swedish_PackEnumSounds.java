@@ -7,15 +7,32 @@ import train.common.library.Info;
 
 public enum Swedish_PackEnumSounds implements TrainSoundRecord {
 
-	LOCO_SJLittDa(Swedish_PackEntityLocoElectricSJLittDa.class, Swedish_PackAddonInfo.resourceLocation + "signalhornlong", 1F, "vl10_idle", 0.2F, 10, "vl10_idle", 0.2F, 10, false),
-	LOCO_SJLittDmA(Swedish_PackEntityLocoElectricSJLittDmA.class, Swedish_PackAddonInfo.resourceLocation + "signalhornlong", 1F, "vl10_idle", 0.2F, 10, "vl10_idle", 0.2F, 10, false),
-	LOCO_SJLittDmB(Swedish_PackEntityLocoElectricSJLittDmB.class, Swedish_PackAddonInfo.resourceLocation + "signalhornlong", 1F, "vl10_idle", 0.2F, 10, "vl10_idle", 0.2F, 10, false),
-	LOCO_SJLittD(Swedish_PackEntityLocoElectricSJLittD.class, Swedish_PackAddonInfo.resourceLocation + "signalhornlong", 1F, "vl10_idle", 0.2F, 10, "vl10_idle", 0.2F, 10, false),
-	LOCO_SJLittDu2(Swedish_PackEntityLocoElectricSJLittDu2.class, Swedish_PackAddonInfo.resourceLocation + "signalhornlong", 1F, "vl10_idle", 0.2F, 10, "vl10_idle", 0.2F, 10, false),
-	LOCO_SJLittRc(Swedish_PackEntityLocoElectricSJLittRc.class, Swedish_PackAddonInfo.resourceLocation + "signalhornlong", 1F, "vl10_idle", 0.2F, 10, "vl10_idle", 0.2F, 10, false),
+	LOCO_SJLittDa(Swedish_PackEntityLocoElectricSJLittDa.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_SJLittDmA(Swedish_PackEntityLocoElectricSJLittDmA.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_SJLittD(Swedish_PackEntityLocoElectricSJLittD.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_SJLittDu2(Swedish_PackEntityLocoElectricSJLittDu2.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_SJLittRc(Swedish_PackEntityLocoElectricSJLittRc.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50,Info.resourceLocation +":vl10_idle" , 0.2F, 50, false),
+	LOCO_SJLittDg2(Swedish_PackEntityLocoElectricSJLittDg2.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_BJLittDs(Swedish_PackEntityLocoElectricBJLittDs.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_GBJLittBs(Swedish_PackEntityLocoElectricGBJLittBs.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_BJLittBk(Swedish_PackEntityLocoElectricBJLittBk.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_SJLittOa_A(Swedish_PackEntityLocoElectricSJLittOaA.class, Swedish_PackAddonInfo.resourceLocation + ":bwhistlelong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_SJLittOb_A(Swedish_PackEntityLocoElectricSJLittObA.class, Swedish_PackAddonInfo.resourceLocation + ":bwhistlelong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_SJLittOc(Swedish_PackEntityLocoElectricSJLittOc.class, Swedish_PackAddonInfo.resourceLocation + ":bwhistlelong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_SJLittOd(Swedish_PackEntityLocoElectricSJLittOd.class, Swedish_PackAddonInfo.resourceLocation + ":bwhistlelong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_SJLittOe_A(Swedish_PackEntityLocoElectricSJLittOeA.class, Swedish_PackAddonInfo.resourceLocation + ":bwhistlelong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_SJLittB1919(Swedish_PackEntityLocoSteamSJLittB1919.class, Swedish_PackAddonInfo.resourceLocation + ":bwhistlelong", 1F, Swedish_PackAddonInfo.resourceLocation + ":blokrun", 0.4F, 37, Swedish_PackAddonInfo.resourceLocation + ":blokidle", 0.8F, 99, false),
+	LOCO_SJLittB1909(Swedish_PackEntityLocoSteamSJLittB1909.class, Swedish_PackAddonInfo.resourceLocation + ":bwhistlelong", 1F, Swedish_PackAddonInfo.resourceLocation + ":blokrun", 0.4F, 37, Swedish_PackAddonInfo.resourceLocation + ":blokidle", 0.8F, 99, false),
+	LOCO_SJLittX16(Swedish_PackEntityLocoElectricSJLittX16.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_SJLittY6(Swedish_PackEntityLocoDieselSJLittY6.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
 
-	//LOCO_SJLittB1919(Swedish_PackEntityLocoSteamSJLittB1919.class, Swedish_PackAddonInfo.resourceLocation + "BWhistleLong", 0.6F, "steam_run", 0.2F, 20, "steam_run", 0.2F, 20, true),
-
+	LOCO_SJLittOf_A(Swedish_PackEntityLocoElectricSJLittOfA.class, Swedish_PackAddonInfo.resourceLocation + ":bwhistlelong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_SJLittOf_As(Swedish_PackEntityLocoElectricSJLittOfAs.class, Swedish_PackAddonInfo.resourceLocation + ":bwhistleshort", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_SJLittT21(Swedish_PackEntityLocoDieselSJLittT21.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":ALCO_16_251C_Notch8", 0.2F, 50, Info.resourceLocation +":ALCO_16_251C_Idle", 0.2F, 130, false),
+	LOCO_FTRLittPVV8(Swedish_PackEntityLocoDieselFTRLittPVV8.class, Info.resourceLocation + ":leslie_a425", 1F, Info.resourceLocation +":FM_38D_6_Notch8", 0.2F, 50, Info.resourceLocation +":FM_38D_6_Idle", 0.2F, 100, true),
+	LOCO_SJLittT23(Swedish_PackEntityLocoDieselSJLittT23.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":ALCO_16_251C_Notch8", 0.2F, 50, Info.resourceLocation +":ALCO_16_251C_Idle", 0.2F, 130, false),
+	LOCO_FTRLittET41A(Swedish_PackEntityLocoElectricFTRLittET41A.class, Swedish_PackAddonInfo.resourceLocation + ":ET41Horn", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, true),
+	LOCO_SJLittT31(Swedish_PackEntityLocoDieselSJLittT31.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":ALCO_16_251C_Notch8", 0.2F, 50, Info.resourceLocation +":ALCO_16_251C_Idle", 0.2F, 130, false),
 	/*
 
 
@@ -78,13 +95,13 @@ public enum Swedish_PackEnumSounds implements TrainSoundRecord {
 	 * @param hornVolume
 	 * @param run
 	 * @param runVolume
-	 * @param runSoundLenght
+	 * @param runSoundLength
 	 * @param idle
 	 * @param idleVolume
-	 * @param idleSoundLenght
+	 * @param idleSoundLength
 	 * @param soundChangeWithSpeed
 	 */
-	private Swedish_PackEnumSounds(Class entityClass, String horn, float hornVolume, String run, float runVolume, int runSoundLenght, String idle, float idleVolume, int idleSoundLenght, boolean soundChangeWithSpeed) {
+	private Swedish_PackEnumSounds(Class entityClass, String horn, float hornVolume, String run, float runVolume, int runSoundLength, String idle, float idleVolume, int idleSoundLength, boolean soundChangeWithSpeed) {
 		this.entityClass = entityClass;
 		this.horn = horn;
 		this.hornVolume = hornVolume;
@@ -102,22 +119,22 @@ public enum Swedish_PackEnumSounds implements TrainSoundRecord {
 		return entityClass;
 	}
 
-    @Override
+	@Override
 	public String getHornString() {
-        if (horn == null || horn.isEmpty() || horn.startsWith(Swedish_PackAddonInfo.resourceLocation + ":")) return horn;
-		return Info.resourceLocation + ":" + horn;
+		if (horn == null || horn.isEmpty() || horn.startsWith(Swedish_PackAddonInfo.resourceLocation + ":")) return horn;
+		return horn;
 	}
 
-    @Override
+	@Override
 	public String getRunString() {
-        if (run == null || run.isEmpty() || run.startsWith(Swedish_PackAddonInfo.resourceLocation + ":")) return run;
-		return Info.resourceLocation + ":" + run;
+		if (run == null || run.isEmpty() || run.startsWith(Swedish_PackAddonInfo.resourceLocation + ":")) return run;
+		return run;
 	}
 
-    @Override
+	@Override
 	public String getIdleString() {
-        if (idle == null || idle.isEmpty() || idle.startsWith(Swedish_PackAddonInfo.resourceLocation + ":")) return idle;
-		return Info.resourceLocation + ":" + idle;
+		if (idle == null || idle.isEmpty() || idle.startsWith(Swedish_PackAddonInfo.resourceLocation + ":")) return idle;
+		return idle;
 	}
 
     @Override
@@ -141,7 +158,9 @@ public enum Swedish_PackEnumSounds implements TrainSoundRecord {
 	}
 
 	@Override
-	public int getIdleSoundLength() {return idleSoundLength;}
+	public int getIdleSoundLength() {
+		return idleSoundLength;
+	}
 
     @Override
 	public boolean getSoundChangeWithSpeed() {

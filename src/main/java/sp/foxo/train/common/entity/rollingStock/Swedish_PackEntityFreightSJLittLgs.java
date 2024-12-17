@@ -1,6 +1,5 @@
 package sp.foxo.train.common.entity.rollingStock;
 
-import sp.foxo.train.common.Swedish_Pack_Addon_TCCE;
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
@@ -9,26 +8,25 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.Constants;
-import net.minecraftforge.fluids.FluidRegistry;
-import train.common.api.LiquidManager;
-import train.common.api.Tender;
+import train.common.Traincraft;
+import train.common.api.Freight;
 import train.common.library.GuiIDs;
 
-public class Swedish_PackEntityTenderSJLittAtendertype extends Tender implements IInventory {
+public class Swedish_PackEntityFreightSJLittLgs extends Freight implements IInventory {
 	public int freightInventorySize;
 	public int numFreightSlots;
-
-	public Swedish_PackEntityTenderSJLittAtendertype(World world) {
-		super(world, FluidRegistry.WATER,0, LiquidManager.WATER_FILTER);
-		initFreightTender();
+	public Swedish_PackEntityFreightSJLittLgs(World world) {
+		super(world);
+		initFreightCart();
 	}
 
-	public void initFreightTender() {
-		freightInventorySize = 16;
-		tenderItems = new ItemStack[freightInventorySize];
+	public void initFreightCart() {
+		numFreightSlots =36;
+		freightInventorySize = 36;
+		cargoItems = new ItemStack[freightInventorySize];
 	}
 
-	public Swedish_PackEntityTenderSJLittAtendertype(World world, double d, double d1, double d2) {
+	public Swedish_PackEntityFreightSJLittLgs(World world, double d, double d1, double d2) {
 		this(world);
 		setPosition(d, d1 + (double) yOffset, d2);
 		motionX = 0.0D;
@@ -46,21 +44,15 @@ public class Swedish_PackEntityTenderSJLittAtendertype extends Tender implements
 	}
 
 	@Override
-	public void onUpdate() {
-		super.onUpdate();
-		checkInvent(tenderItems[0], this);
-	}
-
-	@Override
 	protected void writeEntityToNBT(NBTTagCompound nbttagcompound) {
 		super.writeEntityToNBT(nbttagcompound);
 
 		NBTTagList nbttaglist = new NBTTagList();
-		for (int i = 0; i < tenderItems.length; i++) {
-			if (tenderItems[i] != null) {
+		for (int i = 0; i < cargoItems.length; i++) {
+			if (cargoItems[i] != null) {
 				NBTTagCompound nbttagcompound1 = new NBTTagCompound();
 				nbttagcompound1.setByte("Slot", (byte) i);
-				tenderItems[i].writeToNBT(nbttagcompound1);
+				cargoItems[i].writeToNBT(nbttagcompound1);
 				nbttaglist.appendTag(nbttagcompound1);
 			}
 		}
@@ -72,44 +64,37 @@ public class Swedish_PackEntityTenderSJLittAtendertype extends Tender implements
 		super.readEntityFromNBT(nbttagcompound);
 
 		NBTTagList nbttaglist = nbttagcompound.getTagList("Items", Constants.NBT.TAG_COMPOUND);
-		tenderItems = new ItemStack[getSizeInventory()];
+		cargoItems = new ItemStack[getSizeInventory()];
 		for (int i = 0; i < nbttaglist.tagCount(); i++) {
 			NBTTagCompound nbttagcompound1 = nbttaglist.getCompoundTagAt(i);
 			int j = nbttagcompound1.getByte("Slot") & 0xff;
-			if (j >= 0 && j < tenderItems.length) {
-				tenderItems[j] = ItemStack.loadItemStackFromNBT(nbttagcompound1);
+			if (j >= 0 && j < cargoItems.length) {
+				cargoItems[j] = ItemStack.loadItemStackFromNBT(nbttagcompound1);
 			}
 		}
 	}
 	@Override
 	public String getInventoryName() {
-		return "SJ Litterera A-type Tender";
+		return "SJ Litt Lgs";
 	}
 
 	@Override
 	public int getSizeInventory() {
 		return freightInventorySize;
 	}
+
 	@Override
 	public boolean interactFirst(EntityPlayer entityplayer) {
 		playerEntity = entityplayer;
 		if ((super.interactFirst(entityplayer))) {
 			return false;
 		}
-		if (!this.worldObj.isRemote) {
-			entityplayer.openGui(Swedish_Pack_Addon_TCCE.instance, GuiIDs.TENDER, worldObj, this.getEntityId(), -1, (int) this.posZ);
-		}
+		entityplayer.openGui(Traincraft.instance, GuiIDs.FREIGHT, worldObj, this.getEntityId(), -1, (int) this.posZ);
 		return true;
 	}
-
-	@Override
-	public boolean canBeRidden() {
-		return false;
-	}
-
 	@Override
 	public float getOptimalDistance(EntityMinecart cart) {
-		return 3.7F;
+		return 2.4F;
 	}
 
 	@Override

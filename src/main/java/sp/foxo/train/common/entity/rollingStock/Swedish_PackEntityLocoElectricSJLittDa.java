@@ -115,7 +115,7 @@ public class Swedish_PackEntityLocoElectricSJLittDa extends ElectricTrain {
 
 	@Override
 	public String getInventoryName() {
-		return "SJ Litterera Da";
+		return "SJ Litt Da";
 	}
 
 	@Override
@@ -135,7 +135,7 @@ public class Swedish_PackEntityLocoElectricSJLittDa extends ElectricTrain {
 
 	@Override
 	public float getOptimalDistance(EntityMinecart cart) {
-		return 0.85F;
+		return 0.9F;
 	}
 
 	@Override
@@ -146,4 +146,6 @@ public class Swedish_PackEntityLocoElectricSJLittDa extends ElectricTrain {
 	public boolean isItemValidForSlot(int i, ItemStack itemstack) {
 		return true;
 	}
+
+
 }

@@ -46,7 +46,7 @@ public class Swedish_Pack_Addon_TCCE {
 		/* Register Items, Blocks, ... */
 		tcLog.info("Initialize Blocks, Items, ...");
 
-        tcAddonTab = new Swedish_PackCreativeTabTraincraftTrains(CreativeTabs.getNextID(), "Swedish Pack Addon for TrainCraft");
+        tcAddonTab = new Swedish_PackCreativeTabTraincraftTrains(CreativeTabs.getNextID(), "Swedish Pack");
 
         Swedish_PackItems.init();
         registerEntityHandlers();

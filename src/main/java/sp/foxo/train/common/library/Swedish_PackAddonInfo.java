@@ -5,7 +5,7 @@ public class Swedish_PackAddonInfo {
 	/* Mod relevant information */
 	public static final String modID = "swedishpack";
 	public static final String modName = "Swedish_Pack";
-	public static final String modVersion = "0.1";
+	public static final String modVersion = "0.3_1";
 	public static final String channel = "swedish_pack_Addon";
 	public static final String keyChannel = "swedish_packKey";
 	public static final String rotationChannel = "4AddonRotation";
