@@ -130,7 +130,7 @@ public class Swedish_PackEntityLocoDieselSJLittY6 extends DieselTrain {
 
     @Override
     public String getInventoryName() {
-        return "SJ Litt T31";
+        return "SJ Litt Y6";
     }
 
     @Override

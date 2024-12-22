@@ -35,6 +35,9 @@ public enum Swedish_PackEnumTrains {
     LOCO_SJLittT31("locoSJLittT31", "SJ Litt T31", Swedish_PackEntityLocoDieselSJLittT31.class, Swedish_PackItemIDs.minecartSJLittT31.item, "diesel", 790, 81, 1.4, 10, 0, 100, 0.5, 0.6, 8000, new String[]{"S_NP","O_NP","S_WP","O_WP"}, 18, -2.225, Constants.TOOLTIP),
     LOCO_SJLittX16("locoSJLittX16", "SJ Litt X16", Swedish_PackEntityLocoElectricSJLittX16.class, Swedish_PackItemIDs.minecartSJLittX16.item, "electric", 800, 111, 1.4, 10, 0, 100, 0.5, 0.6, 8000, new String[]{"South_Down","South_Up","North_Down","North_Up","SouthSF_Down","SouthSF_Up","NorthSF_Down","NorthSF_Up"}, 18, -4.3, Constants.TOOLTIP),
     LOCO_SJLittY6("locoSJLittY6", "SJ Litt Y6", Swedish_PackEntityLocoDieselSJLittY6.class, Swedish_PackItemIDs.minecartSJLittY6.item, "diesel", 800, 116, 1.4, 10, 0, 100, 0.5, 0.6, 8000, new String[]{"South","North"}, 18, -4.3, Constants.TOOLTIP),
+    LOCO_SJLittFel("locoSJLittFel", "SJ Litt F el", Swedish_PackEntityLocoElectricSJLittFel.class, Swedish_PackItemIDs.minecartSJLittFel.item, "electric", 3459, 136, 1.4, 10, 0, 100, 0.7, 0.9, 8000, new String[]{"Modern_AllDown","Modern_Back_Up","Modern_Front_Up","PreSJ_AllDown","PreSJ_Back_Up","PreSJ_Front_Up"}, 18, -4.325, Constants.TOOLTIP),
+
+
 
     Passanger_SJLittUb("passangerSJLittUb", "SJ Litt Ub", Swedish_PackEntityPassengerSJLittUb.class, Swedish_PackItemIDs.minecartSJLittUb.item, "Passanger", 0, 0, 1, 0, 0, 0, 0, 0, 0, new String[]{"South","North"}, 10, 0, Constants.TOOLTIP),
     Passanger_SJLittUBF6Y("passangerSJLittUBF6Y", "SJ Litt UBF6Y", Swedish_PackEntityPassengerSJLittUBF6Y.class, Swedish_PackItemIDs.minecartSJLittUBF6Y.item, "Passanger", 0, 0, 1, 0, 0, 0, 0, 0, 0, new String[]{"South","North"}, 10, 0, Constants.TOOLTIP),
@@ -60,6 +63,10 @@ public enum Swedish_PackEnumTrains {
     FREIGHT_SJLittUFV("SJLittUFV", "SJ_Litt_UFV", Swedish_PackEntityFreightSJLittUFV.class, Swedish_PackItemIDs.minecartSJLittUFV.item, "freight", 3.5, new String[]{"South"}, 18, 36, Constants.TOOLTIP),
     FREIGHT_SJLittElos("SJLittElos", "SJ_Litt_Elos", Swedish_PackEntityFreightSJLittElos.class, Swedish_PackItemIDs.minecartSJLittElos.item, "freight", 3.5, new String[]{"NS", "NS_1", "NS_2", "NS_3", "WS", "WS_1", "WS_2", "WS_3"}, 18, 36, Constants.TOOLTIP),
     FREIGHT_SJLittOaVagn("SJLittOaVagn", "SJ_Litt_OaVagn", Swedish_PackEntityFreightSJLittOaVagn.class, Swedish_PackItemIDs.minecartSJLittOaVagn.item, "freight", 3.5, new String[]{"Empty"}, 18, 36, Constants.TOOLTIP),
+
+    TANK_SJLittQ12("SJLittQ12", "SJ_Litt_Q12", Swedish_PackEntityEntityWagonSJLittQ12.class, Swedish_PackItemIDs.minecartSJLittQ12.item, "tank", 3.5, new String[]{"Silver_New","Silver_Old"}, 18, 0, Constants.TOOLTIP),
+
+
 
     FREIGHT_SJLittDm3("SJLittDm3", "SJ_Litt_Dm3", Swedish_PackEntityFreightSJLittDm3.class, Swedish_PackItemIDs.minecartSJLittDm3.item, "freight", 3.5, new String[]{"60s", "70s","LKAB"}, 18, 36, Constants.TOOLTIP),
     CABOOSE_SJLittOaB("cabooseSJLittOaB", "SJ_Litt_Oa_B", Swedish_PackEntityCabooseSJLittOaB.class, Swedish_PackItemIDs.minecartSJLittOaB.item, "caboose", 0, 0, 1, 0, 0, 0, 0, 0, 0, new String[]{"NP_Down","NP_Up","WP_Down","WP_Up"}, 10, 0, Constants.TOOLTIP),

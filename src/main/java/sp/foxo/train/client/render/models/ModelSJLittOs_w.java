@@ -28,6 +28,7 @@ public class ModelSJLittOs_w extends ModelConverter //Same as Filename
 
 		flipAll();
 	}
+
 	private void initbodyModel_1()
 	{
 		bodyModel[0] = new ModelRendererTurbo(this, 1, 1, textureX, textureY); // Du loco part41
@@ -74,7 +75,7 @@ public class ModelSJLittOs_w extends ModelConverter //Same as Filename
 		bodyModel[41] = new ModelRendererTurbo(this, 25, 9, textureX, textureY); // Du loco part41
 		bodyModel[42] = new ModelRendererTurbo(this, 225, 33, textureX, textureY); // Du loco part41
 		bodyModel[43] = new ModelRendererTurbo(this, 33, 9, textureX, textureY); // Du loco part41
-		bodyModel[44] = new ModelRendererTurbo(this, 345, 33, textureX, textureY); // Du loco part41
+		bodyModel[44] = new ModelRendererTurbo(this, 225, 33, textureX, textureY); // Du loco part41
 		bodyModel[45] = new ModelRendererTurbo(this, 41, 9, textureX, textureY); // Du loco part41
 		bodyModel[46] = new ModelRendererTurbo(this, 49, 9, textureX, textureY); // Du loco part41
 		bodyModel[47] = new ModelRendererTurbo(this, 57, 9, textureX, textureY); // Du loco part41

@@ -53,8 +53,12 @@ item.swedishpack:minecartSJLittUDFo20.name=Litt UDFo20 (SJ)
 item.swedishpack:minecartSJLittUFV.name=Litt UFV (SJ)
 item.swedishpack:minecartSJLittElos.name=Litt Elos (SJ)
 item.swedishpack:minecartSJLittOaVagn.name=Litt Oa (SJ) [wagon]
+item.swedishpack:minecartSJLittQ12.name=Litt Q12 (SJ)
+item.swedishpack:minecartSJLittFel.name=Litt F [Electric] (SJ)
 
 
+
+entity.swedishpack.SJ_Litt_Q12.name=Litt Q12 (SJ)
 entity.swedishpack.SJ_Litt_Elos.name=Litt Elos (SJ)
 entity.swedishpack.SJ_Litt_OaVagn.name=Litt Oa (SJ) [wagon]
 entity.swedishpack.SJ_Litt_UDFo20.name=Litt UDFo20 (SJ)

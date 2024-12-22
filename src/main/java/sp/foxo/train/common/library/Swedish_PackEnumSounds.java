@@ -25,6 +25,8 @@ public enum Swedish_PackEnumSounds implements TrainSoundRecord {
 	LOCO_SJLittB1909(Swedish_PackEntityLocoSteamSJLittB1909.class, Swedish_PackAddonInfo.resourceLocation + ":bwhistlelong", 1F, Swedish_PackAddonInfo.resourceLocation + ":blokrun", 0.4F, 37, Swedish_PackAddonInfo.resourceLocation + ":blokidle", 0.8F, 99, false),
 	LOCO_SJLittX16(Swedish_PackEntityLocoElectricSJLittX16.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
 	LOCO_SJLittY6(Swedish_PackEntityLocoDieselSJLittY6.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+	LOCO_SJLittFel(Swedish_PackEntityLocoElectricSJLittFel.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
+
 
 	LOCO_SJLittOf_A(Swedish_PackEntityLocoElectricSJLittOfA.class, Swedish_PackAddonInfo.resourceLocation + ":bwhistlelong", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),
 	LOCO_SJLittOf_As(Swedish_PackEntityLocoElectricSJLittOfAs.class, Swedish_PackAddonInfo.resourceLocation + ":bwhistleshort", 1F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle", 0.2F, 50, false),

@@ -78,6 +78,7 @@ public enum Swedish_PackRenderEnum implements TrainRenderRecord {
 		}
 	}, "", null, 0, false),
 
+	ElectricSJLittFel(Swedish_PackEntityLocoElectricSJLittFel.class, new ModelSJLittFel(), "Fel_", true, new float[]{-5.225F, -0.5F, 0.0F}, new float[]{0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
 
 
 	FreightSJLittM1(Swedish_PackEntityFreightSJLittM1.class, new ModelSJLittM1(), "SJLittM1_", true, new float[]{-0.775F, -0.5F, 0.0F}, new float[]{0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
@@ -94,6 +95,9 @@ public enum Swedish_PackRenderEnum implements TrainRenderRecord {
 	FreightSJLittUFV(Swedish_PackEntityFreightSJLittUFV.class, new ModelSJLittUFV(), "UFV_", true, new float[]{-1.55F, -0.5F, 0.0F}, new float[]{0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
 	FreightSJLittElos(Swedish_PackEntityFreightSJLittElos.class, new ModelSJLittElos(), "SJLittElos_", true, new float[]{-1.900F, -0.5F, 0.0F}, new float[]{0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
 	FreightSJLittOaVagn(Swedish_PackEntityFreightSJLittOaVagn.class, new ModelSJLittOaVagn(), "SJLittOaVagn_", true, new float[]{-1.655F, -0.5F, 0.0F}, new float[]{0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
+
+
+	TankSJLittO(Swedish_PackEntityEntityWagonSJLittQ12.class, new ModelSJLittQ12(), "SJLittQ12_", true, new float[]{-1.655F, -0.5F, 0.0F}, new float[]{0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
 
 
 	tenderSJLittA(Swedish_PackEntityTenderSJLittA.class, new ModelSJLittAtender(), "SJLittAtender_", true,

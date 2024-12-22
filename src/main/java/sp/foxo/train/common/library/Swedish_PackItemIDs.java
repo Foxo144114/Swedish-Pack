@@ -55,6 +55,8 @@ public enum Swedish_PackItemIDs {
 	minecartSJLittUFV("ItemRollingStock", "UFV-icon", 5),
 	minecartSJLittElos("ItemRollingStock", "Elos-_Icon", 5),
 	minecartSJLittOaVagn("ItemRollingStock", "Oa-Icon", 5),
+	minecartSJLittQ12("ItemRollingStock", "Q12-Icon", 5),
+	minecartSJLittFel("ItemRollingStock", "Fel-icon", 5),
 
 	//minecartOreWagonBase("ItemRollingStock", "OreWagonBase-Icon", 13),
 
